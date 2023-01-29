@@ -1,0 +1,174 @@
+body{
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: justify;
+    border: 1px solid;
+    background: url(img/background.jpg);
+}
+
+h1{
+    font-family: serif;
+    margin-top:1.5em;
+    text-align: center;
+    font-size: 32px;
+}
+
+.houst, h1{
+    color: rgb(64, 224, 208);
+}
+
+h2{
+    color: rgb(72, 209, 204);
+}
+
+blockquote{
+    color: rgb(222, 184, 135);
+}
+
+figcaption{
+    color: rgb(175, 238, 238);
+}
+
+p, td, li{
+    color: rgb(211, 211, 211);
+}
+
+th, caption{
+    color: rgb(222, 184, 135);
+}
+
+ul {
+    padding-left: 32px;
+}
+
+div{
+    border-bottom: 2px solid grey;
+    border-top: 2px solid grey;
+}
+
+.A, th, td{
+    border: 1px solid rgb(105, 105, 105);
+}
+
+figcaption{
+    font-style: italic;
+    text-align: center;
+    font-weight: 400;
+}
+
+.top {
+    width: 100%;
+    height: 400px;
+}
+
+figure{
+    float: right;
+    margin-left: 20px;
+}
+
+.star{
+    padding:0;
+    list-style: none;
+}
+.star li{
+    padding:6px;
+}
+.star li:before {
+    padding-right:10px;
+    font-weight: bold;
+    color: #d6c718;
+    content: "\2606";
+    transition-duration: 0.5s;
+}
+.star li:hover:before {
+    color: #d6c718;
+    content: "\2605";
+}
+
+.ol {
+    list-style-type: none;
+    counter-reset: num;
+    margin: 0 0 0 45px;
+    padding: 15px 0 5px 0;
+    font-size: 16px;
+}
+.ol>li {
+    position: relative;
+    margin: 0 0 0 0;
+    padding: 0 0 10px 0;
+    line-height: 1.4;
+}
+.ol>li:before {
+    content: counter(num);
+    counter-increment: num;
+    display: inline-block;
+    position: absolute;
+    top: 0;
+    left: -38px;
+    width: 28px;
+    height: 28px;
+    background:none;
+    color:  rgb(175, 238, 238);
+    text-align: center;
+    line-height: 28px;
+    font-size: 18px;
+    border-radius: 50%;
+    border: 1px solid  #d6c718;
+}
+
+.B{
+    border: 0;
+    padding: 12px 12px 12px 12px;
+}
+
+.B{
+    padding:0;
+    list-style: none;
+}
+.B td{
+    padding:6px;
+}
+.B td:before {
+    padding-right:10px;
+    font-weight: bold;
+    color: #d6c718;
+    content: "\2606";
+    transition-duration: 0.5s;
+}
+.B td:hover:before {
+    color: #d6c718;
+    content: "\2605";
+}
+
+.Sam_Houston_portrait{
+    height: 200px;
+}
+
+/* .Allens_Landing_Houston_bayou_view{
+    height: 240px;
+}
+
+.Main_Street_looking_south_Houston_Texas{
+    height: 220px;
+}
+
+.Houston_Ship_Channel{
+    height: 200px;
+}
+
+.Discovery_green, .Enron_Complex{
+    height: 210px;
+}
+
+.Aerial_View_of_the_Johnson_Space_Center, .Race_and_ethnicity_2010_Houston{
+    height: 270px;
+}
+
+.Large_Houston_Landsat{
+    height: 215px;
+}
+
+.Melcher_Center_for_Public_Broadcasting{
+    height: 215px;
+} */
